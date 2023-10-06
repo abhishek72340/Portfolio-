@@ -8,7 +8,6 @@ import BlogPage from "./components/BlogPage";
 import WorkPage from "./components/WorkPage";
 import MySkillsPage from "./components/MySkillsPage";
 import { AnimatePresence } from "framer-motion";
-// abhishek
 // import SoundBar from "./subComponents/SoundBar";
 function App() {
   const location = useLocation();
