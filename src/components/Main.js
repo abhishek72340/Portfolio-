@@ -1,15 +1,15 @@
-import { motion } from 'framer-motion'
-import React, { useState } from 'react'
-import { NavLink } from 'react-router-dom'
-import styled, { keyframes } from 'styled-components'
-import LogoComponent from '../subComponents/LogoComponent'
-import PowerButton from '../subComponents/PowerButton'
-import SocialIcons from '../subComponents/SocialIcons'
-import { YinYang } from './AllSvgs'
-import Intro from './Intro'
+import { motion } from "framer-motion";
+import React, { useState } from "react";
+import { NavLink } from "react-router-dom";
+import styled, { keyframes } from "styled-components";
+import LogoComponent from "../subComponents/LogoComponent";
+import PowerButton from "../subComponents/PowerButton";
+import SocialIcons from "../subComponents/SocialIcons";
+import { YinYang } from "./AllSvgs";
+import Intro from "./Intro";
 const Main = () => {
   const [click, setClick] = useState(false);
-const handleClick = () => setClick(!click);
+  const handleClick = () => setClick(!click);
   return (
     <>
       <MainContainer>
@@ -94,7 +94,7 @@ const handleClick = () => setClick(!click);
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9 }}
               >
-                About.
+                About
               </motion.h2>
             </ABOUT>
             <SKILLS to="/skills">
@@ -110,7 +110,7 @@ const handleClick = () => setClick(!click);
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9 }}
               >
-                My Skills.
+                My Skills
               </motion.h2>
             </SKILLS>
           </BottomBar>
